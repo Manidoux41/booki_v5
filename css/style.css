@@ -163,7 +163,8 @@ header .filtersInfo {
 }
 header .filtersInfo i {
     color: var(--blue);
-    padding: .4rem .7rem;
+    font-size: .55rem;
+    padding: .4rem .6rem;
     border: 1px solid var(--darkgrey);
     border-radius: 50%;
 }
@@ -171,6 +172,36 @@ header .filtersInfo p {
     padding-left: .5rem;
 }
 
+/* MAIN */
+
+/***************************Section Lodging***************************************/
+#lodging {
+    display: flex;
+    gap: 1.5rem;
+}
+
+#lodging .cityLodging, #lodging .mostPopular{
+    padding: 2rem 1.5rem;
+    border-radius: 1rem;
+}
+#lodging .cityLodging{
+    flex: 2;
+    background: var(--grey);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.5rem;
+}
+#lodging .cityLodging h3 {
+    grid-column: 1/-1;
+}
+#lodging .mostPopular{
+    flex: 1;
+    background: var(--grey) ;
+}
+#lodging .mostPopular .title {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /*************************************************************************************
@@ -184,7 +215,6 @@ header .filtersInfo p {
 /***************************Section Navigation***************************************/
     #navigation {
         flex-direction: column;
-
     }
     #navigation .logo {
         display: flex;
@@ -229,5 +259,20 @@ header .filtersInfo p {
 
     /***************************Section Filters***************************************/
   
+/* MAIN */
+
+
+/***************************Section Lodging***************************************/
+    #lodging {
+    flex-direction: column;
+    }
+    #lodging .mostPopular {
+        order: -1;
+    }
+    #lodging .cityLodging {
+        display: flex;
+        flex-direction: column;
+    }
+    
 }
 
