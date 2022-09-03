@@ -190,6 +190,10 @@ header .filtersInfo p {
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
+#lodging .card {    
+    box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+
+}
 .cityLodging{
     flex:2 ;
 }
