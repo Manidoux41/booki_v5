@@ -280,7 +280,7 @@ header .filtersInfo p {
 }
 .mostPopular .cardContainer .card .image img {
     height: 100%;
-    width: auto;
+    width: 100%;
 }
 .mostPopular .cardContainer .card .content {
     flex: 3;
@@ -375,8 +375,18 @@ header .filtersInfo p {
         /* display: flex;
         flex-direction: column; */
     }
-    .mostPopular .cardContainer .card .image img {
+    /* .cityLodging .cardContainer .card .image img{       
         width: 100%;
+        object-fit: cover;
+        background-position: center;
+    } */
+    .mostPopular .cardContainer .card {
+        width: auto;
+    }
+    .mostPopular .cardContainer .card .image img{        
+        width: 100%;
+        object-fit: cover;   
+        background-position: center;
     }
     
 }
