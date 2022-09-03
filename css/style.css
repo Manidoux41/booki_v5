@@ -97,6 +97,9 @@ header {
   color: var(--black);
   font-weight: 700;
 }
+#searchform .mainform input[type="text"]:focus {
+    outline: none;
+  }
 #searchform .mainform .search {
   position: relative;
   cursor: pointer;
