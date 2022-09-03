@@ -6,6 +6,10 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
 }
+body {
+    max-width: 1440px;
+    margin: auto;
+}
 
 
 :root {
@@ -37,6 +41,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1.5rem;
+    
 }
 #navigation .logo {     
     padding-left: 3rem;
