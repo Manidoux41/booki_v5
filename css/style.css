@@ -123,7 +123,7 @@ header {
     padding-top: 1.5rem;
 }
 #filters h4 {
-    font-weight: 800;
+    font-weight: 700;
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
@@ -136,18 +136,18 @@ header {
     display: flex;
     align-items: center;
     margin-right: 1rem;
-    border: 3px solid var(--lightgrey);
+    border: 2px solid var(--lightgrey);
     border-radius: 2rem;
     margin-bottom: 1rem;
 }
 #filters ul li span{  
-    padding: 1rem;
+    padding: .8rem;
     background: var(--lightgrey);
     color: var(--blue);
     border-radius: 50px;
 }
 #filters ul li:nth-child(2)>span{  
-    padding: 1rem 1.2rem;    
+    padding: .8rem 1rem;    
 }
 #filters ul li a {
     display: inline;
