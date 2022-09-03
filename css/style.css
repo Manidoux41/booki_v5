@@ -239,8 +239,8 @@ header .filtersInfo p {
     justify-content: space-between;
     height: 100%;
     background: var(--white);
-    border-radius: 1rem;
-    border: 5px solid var(--white);
+    border-radius: 1.5rem;
+    border: 8px solid var(--white);
     overflow: hidden;
 }
 .cityLodging .cardContainer .card .image {
@@ -268,8 +268,8 @@ header .filtersInfo p {
 .mostPopular .cardContainer .card {
     display: flex;
     background: var(--white);
-    border: 5px solid var(--white);
-    border-radius: 1rem;    
+    border: 8px solid var(--white);
+    border-radius: 1.5rem;    
     overflow: hidden;
 }
 .mostPopular .cardContainer .card .image {
@@ -284,18 +284,18 @@ header .filtersInfo p {
 }
 .mostPopular .cardContainer .card .content {
     flex: 3;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     
 }
 .mostPopular .cardContainer .card .content .contentText {
     display: inline;
-    padding: 1rem;
+    padding:  .2rem 1rem;
 }
 .mostPopular .cardContainer .card .content .star {
     display: inline;
-    padding: 1rem;
+    padding: .2rem 1rem;
 }
 
 
@@ -375,11 +375,11 @@ header .filtersInfo p {
         /* display: flex;
         flex-direction: column; */
     }
-    /* .cityLodging .cardContainer .card .image img{       
+    .cityLodging .cardContainer .card .image img{       
         width: 100%;
         object-fit: cover;
         background-position: center;
-    } */
+    }
     .mostPopular .cardContainer .card {
         width: auto;
     }
