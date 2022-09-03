@@ -28,7 +28,9 @@ li {
 }
 
 /* HEADER */
-
+header {
+    margin-bottom: 1.5rem;
+}
 /***************************Section Navigation***************************************/
 #navigation {
     display: flex;
@@ -153,10 +155,11 @@ li {
     font-weight: 700;
 }
 
+/***************************Section FiltersInfo***************************************/
+
 header .filtersInfo {
     display: flex;
     align-items: center;
-    margin-bottom: 1.5rem;
 }
 header .filtersInfo i {
     color: var(--blue);
@@ -174,7 +177,7 @@ header .filtersInfo p {
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
 
 /* HEADER */
 
