@@ -382,6 +382,7 @@ header .filtersInfo p {
   right: 0;
   bottom: 0;
   padding: 1rem;
+  border-radius: 0 0 1rem 1rem;
 
   background: #fff;
   display: flex;
@@ -390,6 +391,7 @@ header .filtersInfo p {
   justify-content: center;
   font-weight: 700;
   overflow: hidden;
+
 }
 
 /*************************************************************************************
@@ -461,9 +463,11 @@ header .filtersInfo p {
     gap: 1rem;
   }
   .cityLodging .cardContainer {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 290px);
     /* display: flex;
-        flex-direction: column; */
+        flex-direction: row;
+        flex-wrap: wrap; */
   }
   .cityLodging .cardContainer .card .image img {
     width: 100%;
@@ -478,4 +482,60 @@ header .filtersInfo p {
     object-fit: cover;
     background-position: center;
   }
+
+ /***************************Section Activities **************************************/
+ #activities .activitiesList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 320px);
+  gap: 1.5rem;
+}
+/* Grid Layout */
+.card__item--1 {
+  grid-column: 1 / span 1;
+  grid-row: 1 /  span 1;
+}
+.card__item--2 {
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+.card__item--3 {
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+.card__item--4 {
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.card__item--5 {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+.card__item--6 {
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+}
+
+@media screen and (max-width: 768px) {
+  
+  /***************************Section Lodging***************************************/
+
+  .cityLodging .cardContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 290px);
+    /* display: flex;        
+    flex-direction: column;
+    height: 50%; */
+  }
+  /***************************Section Activities **************************************/
+ #activities .activitiesList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.card__image {
+  max-height: 200px;
+}
+
 }
