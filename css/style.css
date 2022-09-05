@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+@import 'header.css';
+@import 'searchform.css';
+@import 'filter.css';
 
 * {
   margin: 0;
@@ -34,159 +37,11 @@ li {
     padding: 0 2rem;
 }
 
-/* HEADER */
-header {
-  margin-bottom: 1.5rem;
-}
-/***************************Section Navigation***************************************/
-#navigation {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-#navigation .logo {
-  padding-left: 3rem;
-}
-#navigation .logo img {
-  width: 100px;
-}
-#navigation .menu {
-  display: flex;
-  padding-right: 2rem;
-}
-#navigation .menu a {
-  padding: 2.8rem 1rem;
-}
-#navigation .menu a:hover {
-  border-top: 2px solid var(--blue);
-  color: var(--blue);
-}
 
-/***************************Section SearchForm***************************************/
 
-#searchform {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 1.5rem;
-}
-#searchform h3 {
-  margin-bottom: 1rem;
-}
-#searchform p {
-  font-size: 0.9rem;
-  margin-bottom: 2rem;
-}
-#searchform .mainform {
-  display: flex;
-}
-#searchform .mainform .search {
-  position: relative;
-}
-#searchform .mainform > span {
-  padding: 1rem;
-  background: var(--grey);
-  border-radius: 1rem 0 0 1rem;
-}
-#searchform .mainform input[type="text"] {
-  padding: 0.9rem;
-  border: none;
-  border-top: 1px solid var(--grey);
-  border-bottom: 1px solid var(--grey);
-  color: var(--black);
-  font-weight: 700;
-}
-#searchform .mainform input[type="text"]::placeholder {
-  color: var(--black);
-  font-weight: 700;
-}
-#searchform .mainform input[type="text"]:focus {
-  outline: none;
-}
-#searchform .mainform .search {
-  position: relative;
-  cursor: pointer;
-}
-#searchform .mainform .search > input {
-  border: none;
-  padding: 1rem;
-  background: var(--blue);
-  border-radius: 0 1rem 1rem 0;
-  color: var(--white);
-  font-weight: 700;
-}
-#searchform .mainform .search span {
-  position: absolute;
-  background: var(--blue);
-  padding: 1rem;
-  border-radius: 1rem;
-  color: var(--white);
-  left: -0;
-  visibility: hidden;
-}
 
-/***************************Section Filters***************************************/
 
-#filters {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 1.5rem;
-}
-#filters h4 {
-  font-weight: 700;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
-#filters ul {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-}
-#filters ul li {
-  display: flex;
-  align-items: center;
-  margin-right: 1rem;
-  border: 2px solid var(--lightgrey);
-  border-radius: 2rem;
-  margin-bottom: 1rem;
-  transition: 0.3s ease;
-}
-#filters ul li:hover {
-  transform: scale(1.03);
-}
-#filters ul li span {
-  padding: 0.8rem;
-  background: var(--lightgrey);
-  color: var(--blue);
-  border-radius: 50px;
-}
-#filters ul li:nth-child(2) > span {
-  padding: 0.8rem 1rem;
-}
-#filters ul li a {
-  display: inline;
-  padding: 0 1rem;
-  font-weight: 700;
-}
 
-/***************************Section FiltersInfo***************************************/
-
-header .filtersInfo {
-  display: flex;
-  align-items: center;
-}
-header .filtersInfo i {
-  color: var(--blue);
-  font-size: 0.55rem;
-  padding: 0.4rem 0.6rem;
-  border: 1px solid var(--darkgrey);
-  border-radius: 50%;
-}
-header .filtersInfo p {
-  padding-left: 0.5rem;
-}
 
 /* MAIN */
 
@@ -401,20 +256,16 @@ footer {
 }
 
 footer .footer__menu {
+  width: 100%;
+  margin: 0 auto;
   padding: 2.5rem;
   display:flex;
-  justify-content: flex-start;
-  gap: 18rem;
-}
+  justify-content: space-between;
+  }
 
 .about, .ourLodging, .helpAssist {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 1rem;
-  align-items: flex-start;
+  width: 33%;
 }
-
 /*************************************************************************************
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
@@ -452,19 +303,8 @@ footer .footer__menu {
     border-bottom: 2px solid var(--blue);
   }
 
-  /***************************Section SearchForm***************************************/
 
-  #searchform .mainform input[type="text"] {
-    width: 80%;
-  }
-  #searchform .mainform .search > input {
-    display: none;
-  }
-  #searchform .mainform .search > span {
-    z-index: 1;
-    left: -1rem;
-    visibility: visible;
-  }
+  
 
   /***************************Section Filters***************************************/
 
@@ -536,7 +376,13 @@ footer .footer__menu {
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
   }
+  /* footer .footer__menu {
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 1.5rem
+  } */
 }
+
 
 @media screen and (max-width: 768px) {
   /***************************Section Lodging***************************************/
@@ -557,4 +403,9 @@ footer .footer__menu {
   .card__image {
     max-height: 200px;
   }
+  /* footer .footer__menu {
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 1.5rem
+  } */
 }

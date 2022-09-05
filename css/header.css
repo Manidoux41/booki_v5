@@ -1,0 +1,29 @@
+/* HEADER */
+header {
+    margin-bottom: 1.5rem;
+  }
+  /***************************Section Navigation***************************************/
+  #navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  #navigation .logo {
+    padding-left: 3rem;
+  }
+  #navigation .logo img {
+    width: 100px;
+  }
+  #navigation .menu {
+    display: flex;
+    padding-right: 2rem;
+  }
+  #navigation .menu a {
+    padding: 2.8rem 1rem;
+    border: 2px solid var(--white);
+  }
+  #navigation .menu a:hover {
+    border-top: 2px solid var(--blue);
+    color: var(--blue);
+  }
