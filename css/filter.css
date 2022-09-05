@@ -53,13 +53,20 @@
     display: flex;
     align-items: center;
   }
-  header .filtersInfo i {
+  header .filtersInfo {
+display: inline-flex;
+align-items: center;  
+}
+  header .filtersInfo  i {
     color: var(--blue);
-    font-size: 0.55rem;
-    padding: 0.4rem 0.6rem;
+    /* align-self: center; */
+    font-size: 0.65rem;
+    padding: 0.2rem 0.4rem;
     border: 1px solid var(--darkgrey);
     border-radius: 50%;
+    margin-bottom: .6rem;
   }
   header .filtersInfo p {
-    padding-left: 0.5rem;
+    margin-top: 1.5rem;;
+    margin-left: 1rem;
   }
