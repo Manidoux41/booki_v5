@@ -9,10 +9,6 @@
 html {
   scroll-behavior: smooth;
 }
-body {
-  max-width: 1440px;
-  margin: auto;
-}
 
 :root {
   --blue: #0065fc;
@@ -29,8 +25,13 @@ a {
 li {
   list-style-type: none;
 }
-.wrapper {
-  padding: 0 2rem;
+
+.screen{
+  max-width: 1440px;
+  margin: auto;
+}
+.wrapper {  
+    padding: 0 2rem;
 }
 
 /* HEADER */
@@ -391,7 +392,27 @@ header .filtersInfo p {
   justify-content: center;
   font-weight: 700;
   overflow: hidden;
+}
 
+/*************************** FOOTER **************************************/
+
+footer {
+  background: var(--grey);
+}
+
+footer .footer__menu {
+  padding: 2.5rem;
+  display:flex;
+  justify-content: flex-start;
+  gap: 18rem;
+}
+
+.about, .ourLodging, .helpAssist {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
 }
 
 /*************************************************************************************
@@ -483,42 +504,41 @@ header .filtersInfo p {
     background-position: center;
   }
 
- /***************************Section Activities **************************************/
- #activities .activitiesList {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 320px);
-  gap: 1.5rem;
-}
-/* Grid Layout */
-.card__item--1 {
-  grid-column: 1 / span 1;
-  grid-row: 1 /  span 1;
-}
-.card__item--2 {
-  grid-column: 2 / span 1;
-  grid-row: 1 / span 1;
-}
-.card__item--3 {
-  grid-column: 1 / span 1;
-  grid-row: 2 / span 1;
-}
-.card__item--4 {
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
-}
-.card__item--5 {
-  grid-column: 1 / span 1;
-  grid-row: 3 / span 1;
-}
-.card__item--6 {
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
-}
+  /***************************Section Activities **************************************/
+  #activities .activitiesList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 320px);
+    gap: 1.5rem;
+  }
+  /* Grid Layout */
+  .card__item--1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+  }
+  .card__item--2 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+  }
+  .card__item--3 {
+    grid-column: 1 / span 1;
+    grid-row: 2 / span 1;
+  }
+  .card__item--4 {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+  .card__item--5 {
+    grid-column: 1 / span 1;
+    grid-row: 3 / span 1;
+  }
+  .card__item--6 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  
   /***************************Section Lodging***************************************/
 
   .cityLodging .cardContainer {
@@ -529,13 +549,12 @@ header .filtersInfo p {
     height: 50%; */
   }
   /***************************Section Activities **************************************/
- #activities .activitiesList {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-}
-.card__image {
-  max-height: 200px;
-}
-
+  #activities .activitiesList {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .card__image {
+    max-height: 200px;
+  }
 }
