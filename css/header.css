@@ -27,3 +27,43 @@ header {
     border-top: 2px solid var(--blue);
     color: var(--blue);
   }
+
+/*************************************************************************************
+************************************ MEDIA QUERIES ***********************************
+*************************************************************************************/
+
+@media screen and (max-width: 992px) {
+  /* HEADER */
+
+  /***************************Section Navigation***************************************/
+  #navigation {
+    flex-direction: column;
+  }
+  #navigation .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  #navigation .menu {
+    width: 100%;
+    justify-content: space-around;
+    padding-right: 0;
+
+  }
+  #navigation .menu a {
+    width: 100%;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 3px solid var(--darkgrey);
+  }
+  #navigation .menu a:hover {
+    border: none;
+    color: var(--blue);
+    border-bottom: 3px solid var(--blue);
+  }
+ 
+}

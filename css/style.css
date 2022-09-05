@@ -2,6 +2,8 @@
 @import 'header.css';
 @import 'searchform.css';
 @import 'filter.css';
+/* @import 'lodging.css'; */
+@import 'lodging_flex.css';
 
 * {
   margin: 0;
@@ -43,125 +45,7 @@ li {
 
 
 
-/* MAIN */
 
-/***************************Section Lodging***************************************/
-#lodging {
-  display: flex;
-  gap: 1.5rem;
-  margin-bottom: 4rem;
-}
-#lodging .card {
-  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
-}
-.cityLodging {
-  flex: 2;
-}
-.mostPopular {
-  flex: 1;
-}
-.cityLodging,
-.mostPopular {
-  background: var(--grey);
-  padding: 1rem;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-.cityLodging h5 {
-  margin-top: 1rem;
-}
-.cityLodging .title,
-.mostPopular .title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 0.7rem;
-}
-.cityLodging .cardContainer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-auto-rows: 220px;
-  gap: 1rem;
-}
-.blue {
-  color: var(--blue);
-}
-.grey {
-  color: var(--darkgrey);
-}
-.cityLodging .cardContainer .card,
-.mostPopular .cardContainer .card {
-  transition: 0.2s ease all;
-}
-.cityLodging .cardContainer .card:hover,
-.mostPopular .cardContainer .card:hover {
-  transform: scale(1.02);
-}
-.cityLodging .cardContainer .card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 100%;
-  background: var(--white);
-  border-radius: 1.5rem;
-  border: 8px solid var(--white);
-  overflow: hidden;
-}
-.cityLodging .cardContainer .card .image {
-  border-radius: 1rem 1rem 0 0;
-  height: 65%;
-  width: auto;
-  object-fit: cover;
-  background-position: top;
-  overflow: hidden;
-}
-.cityLodging .cardContainer .card .image img {
-  border-radius: 1rem 1rem 0 0;
-  width: 100%;
-  height: 100%;
-}
-.cityLodging .cardContainer .card .content {
-  padding: 5px;
-}
-.mostPopular .cardContainer {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-auto-rows: 160px;
-  gap: 1rem;
-}
-.mostPopular .cardContainer .card {
-  display: flex;
-  background: var(--white);
-  border: 8px solid var(--white);
-  border-radius: 1.5rem;
-  overflow: hidden;
-}
-.mostPopular .cardContainer .card .image {
-  flex: 2;
-  object-fit: cover;
-  background-position: center;
-  overflow: hidden;
-}
-.mostPopular .cardContainer .card .image img {
-  height: 100%;
-  width: 100%;
-}
-.mostPopular .cardContainer .card .content {
-  flex: 3;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.mostPopular .cardContainer .card .content .contentText {
-  display: inline;
-  padding: 0.2rem 1rem;
-}
-.mostPopular .cardContainer .card .content .star {
-  display: inline;
-  padding: 0.2rem 1rem;
-}
 
 /***************************Section Activities **************************************/
 #activities {
@@ -271,78 +155,13 @@ footer .footer__menu {
 *************************************************************************************/
 
 @media screen and (max-width: 992px) {
-  /* HEADER */
-
-  /***************************Section Navigation***************************************/
-  #navigation {
-    flex-direction: column;
-  }
-  #navigation .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 3rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-  }
-
-  #navigation .menu {
-    width: 100%;
-    justify-content: space-around;
-    padding-right: 0;
-  }
-  #navigation .menu a {
-    width: 100%;
-    padding: 1rem 0;
-    text-align: center;
-    border-bottom: 2px solid var(--darkgrey);
-  }
-  #navigation .menu a:hover {
-    border: none;
-    color: var(--blue);
-    border-bottom: 2px solid var(--blue);
-  }
 
 
   
 
   /***************************Section Filters***************************************/
 
-  /* MAIN */
-
-  /***************************Section Lodging***************************************/
-  #lodging {
-    display: flex;
-    flex-direction: column;
-  }
-  #lodging .mostPopular {
-    order: -1;
-  }
-  #lodging .cityLodging {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
-  .cityLodging .cardContainer {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 290px);
-    /* display: flex;
-        flex-direction: row;
-        flex-wrap: wrap; */
-  }
-  .cityLodging .cardContainer .card .image img {
-    width: 100%;
-    object-fit: cover;
-    background-position: center;
-  }
-  .mostPopular .cardContainer .card {
-    width: auto;
-  }
-  .mostPopular .cardContainer .card .image img {
-    width: 100%;
-    object-fit: cover;
-    background-position: center;
-  }
+  
 
   /***************************Section Activities **************************************/
   #activities .activitiesList {
