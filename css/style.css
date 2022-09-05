@@ -326,6 +326,10 @@ header .filtersInfo p {
 .activity__card{
   /* overflow: hidden; */
   box-shadow: 5px 5px 16px rgba(158, 158, 199, 0.151);
+  transition: 0.2s ease all;
+}
+.activity__card:hover{
+  transform: scale(1.03);
 }
 .card__item--1 {
   grid-column: 1 / 2;
