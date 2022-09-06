@@ -122,6 +122,8 @@
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
 
+
+/*Media screen 992px*/
 @media screen and (max-width: 992px) {
     /* MAIN */
 
@@ -158,4 +160,32 @@
     object-fit: cover;
     background-position: center;
   }
+}
+
+
+/*Media screen 768px*/
+@media screen and (max-width: 768px) {
+  /***************************Section Lodging***************************************/
+
+  .cityLodging .cardContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 290px);
+    /* display: flex;        
+    flex-direction: column;
+    height: 50%; */
+  }
+  /***************************Section Activities **************************************/
+  #activities .activitiesList {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .card__image {
+    max-height: 200px;
+  }
+  /* footer .footer__menu {
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 1.5rem
+  } */
 }
