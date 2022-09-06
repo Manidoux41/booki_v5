@@ -3,7 +3,7 @@
 /***************************Section Lodging***************************************/
 #lodging {
     display: flex;
-    gap: 24pxrem;
+    gap: 24px;
     margin-bottom: 64px;
   }
   #lodging .card {
