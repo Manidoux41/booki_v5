@@ -7,20 +7,20 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
   }
   #navigation .logo {
-    padding-left: 3rem;
+    padding-left: 48px;
   }
   #navigation .logo img {
     width: 100px;
   }
   #navigation .menu {
     display: flex;
-    padding-right: 2rem;
+    padding-right: 32px;
   }
   #navigation .menu a {
-    padding: 2.8rem 1rem;
+    padding: 45px 16px;
     border: 2px solid var(--white);
   }
   #navigation .menu a:hover {
@@ -43,9 +43,9 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 3rem;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    padding-left: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
   }
 
   #navigation .menu {
@@ -56,7 +56,7 @@ header {
   }
   #navigation .menu a {
     width: 100%;
-    padding: 1rem 0;
+    padding: 16px 0;
     text-align: center;
     border-bottom: 3px solid var(--darkgrey);
   }
