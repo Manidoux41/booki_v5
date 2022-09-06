@@ -193,14 +193,17 @@
   }
 }
 
-/* Media screen 992px */
+/* Media screen 768px */
 @media screen and (max-width: 768px) {
   .cityLodging .cardContainer .card {
     width: 100%;
     height: 202px;
   }
+  .mostPopular .cardContainer .card .content h3 {
+    font-size: 16px;
+  }
   .mostPopular .cardContainer .card {
     display: flex;
-    height: 160px;
+    height: 170px;
   }
 }
