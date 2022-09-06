@@ -10,11 +10,12 @@ footer {
     justify-content: space-between;
     flex-wrap: wrap;
     padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
     /* gap: 2rem; */
     
 }
 .about, .helpAssist, .ourLodging {
-    padding-bottom: 15px;
+    padding-bottom: 2rem;
     width: 400px;
     height: auto;
     display: flex;
@@ -22,8 +23,14 @@ footer {
 }
 
 .footer__container h4{
-    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    padding-bottom: 7px;
 }
 .footer__container li {
     padding: 5px 0;
+}
+.footer__container li a:hover{
+    font-weight: 600;
+    color: var(--blue);
 }

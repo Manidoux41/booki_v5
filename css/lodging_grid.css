@@ -174,18 +174,5 @@
     flex-direction: column;
     height: 50%; */
   }
-  /***************************Section Activities **************************************/
-  #activities .activitiesList {
-    display: flex;
-    flex-direction: column;
-    
-  }
-  .card__image {
-    max-height: 200px;
-  }
-  /* footer .footer__menu {
-    flex-direction: column;
-    padding: 2.5rem;
-    gap: 1.5rem
-  } */
+  
 }

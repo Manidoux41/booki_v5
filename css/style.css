@@ -1,4 +1,7 @@
+/***********************************************Fonts ***********************************************/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/***********************************Imports Stylesheets *********************************************/
 @import 'header.css';
 @import 'searchform.css';
 @import 'filter.css';
@@ -8,6 +11,7 @@
 @import 'activities_flex.css';
 @import 'footer.css';
 
+/****************************************** Styles Générals *****************************************/
 * {
   margin: 0;
   padding: 0;

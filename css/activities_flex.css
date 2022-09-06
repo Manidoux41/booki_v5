@@ -15,7 +15,8 @@
   }
   /* Card Layout */
   .activity__card {
-    /* overflow: hidden; */
+    overflow: hidden;
+    border-radius: 1rem;
     box-shadow: 5px 5px 16px rgba(158, 158, 199, 0.151);
     transition: 0.2s ease all;
   }
@@ -122,6 +123,24 @@
   .card__item--6 {
     grid-column: 2 / span 1;
     grid-row: 3 / span 1;
+  }
+  /* footer .footer__menu {
+    flex-direction: column;
+    padding: 2.5rem;
+    gap: 1.5rem
+  } */
+}
+
+/***************************Section Activities **************************************/
+
+@media screen and (max-width: 768px){
+  #activities .activitiesList {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .card__image {
+    max-height: 200px;
   }
   /* footer .footer__menu {
     flex-direction: column;
