@@ -4,27 +4,27 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-top: 1.5rem;
+    padding-top: 24px;
   }
   #filters .title {
     display: flex;
     align-items: center;
     font-weight: 700;
-    margin-right: 1rem;
-    margin-bottom: 2rem;
+    margin-right: 16px;
+    margin-bottom: 32px;
   }
   #filters ul {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
   }
   #filters ul li {
     display: flex;
     align-items: center;
-    margin-right: 1rem;
+    margin-right: 16px;
     border: 2px solid var(--lightgrey);
-    border-radius: 2rem;
-    margin-bottom: 1rem;
+    border-radius: 32px;
+    margin-bottom: 16px;
     transition: 0.3s ease;
   }
   #filters ul li:hover {
@@ -38,14 +38,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
+    padding: 16px;
     background: var(--lightgrey);
     color: var(--blue);
     border-radius: 50px;
   }  
   #filters ul li a {
     display: inline;
-    padding: 0 1rem;
+    padding: 0 16px;
     font-weight: 700;
   }
   
@@ -62,13 +62,13 @@ align-items: center;
   header .filtersInfo  i {
     color: var(--blue);
     /* align-self: center; */
-    font-size: 0.65rem;
-    padding: 0.2rem 0.4rem;
+    font-size:10px;
+    padding: 3px 6px;
     border: 1px solid var(--darkgrey);
     border-radius: 50%;
-    margin-bottom: .6rem;
+    margin-bottom: 10px;
   }
   header .filtersInfo p {
-    margin-top: 1.5rem;;
-    margin-left: 1rem;
+    margin-top: 24px;
+    margin-left: 16px;
   }

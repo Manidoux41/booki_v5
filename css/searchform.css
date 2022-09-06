@@ -4,19 +4,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
   }
   h3 {
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
   }
   p {
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
+    font-size: 14px;
+    margin-bottom: 32px;
   }
   .mainform {
     width: 100%;
     display: flex;
-    border-radius: 1rem;   
+    border-radius: 16px;   
     
   }
   .mainform .search {
@@ -24,12 +24,12 @@
     
   }
   .mainform > label {
-    padding: 1rem;
+    padding: 16px;
     background: var(--grey);
-    border-radius: 1rem 0 0 1rem;
+    border-radius:16px 0 0 16px;
   }
   .mainform input[type="text"] {
-    padding: 0.9rem;
+    padding: 14px;
     border: none;
     border-top: 1px solid var(--grey);
     border-bottom: 1px solid var(--grey);
@@ -47,12 +47,17 @@
     background: var(--blue);
     color: var(--white);
     font-weight: 700;
-    padding: 0 2rem;
+    padding: 0 32px;
     border: none;
-    border-radius: 0 1rem 1rem 0;
+    border-radius: 0 16px 16px 0;
     display: flex;
     align-items: center;
-    cursor: pointer;   
+    cursor: pointer;
+    transition: .3s ease;   
+  }
+  .searchButton:hover{
+    background-color: blue;
+    transform: scale(1.02);
   }
   .mobileSearch{
     display: none;
@@ -74,7 +79,7 @@
       .searchButton{
         position: relative;
         left: -11px;
-        padding: 0 1rem;
+        padding: 0 16px;
         border-radius: 1rem;
       }
       .desktopSearch {
