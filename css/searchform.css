@@ -1,0 +1,93 @@
+/***************************Section SearchForm***************************************/
+
+#searchform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  h3 {
+    margin-bottom: 16px;
+  }
+  p {
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .mainform {
+    width: 100%;
+    display: flex;
+    border-radius: 16px;   
+    
+  }
+  .mainform .search {
+    position: relative;
+    
+  }
+  .mainform > label {
+    padding: 16px;
+    background: var(--grey);
+    border-radius:16px 0 0 16px;
+  }
+  .mainform input[type="text"] {
+    padding: 14px;
+    border: none;
+    border-top: 1px solid var(--grey);
+    border-bottom: 1px solid var(--grey);
+    color: var(--black);
+    font-weight: 700;
+  }
+  input[type="text"]::placeholder {
+    color: var(--black);
+    font-weight: 700;
+  }
+  input[type="text"]:focus {
+    outline: none;
+  }
+  .searchButton{
+    background: var(--blue);
+    color: var(--white);
+    font-weight: 700;
+    padding: 0 32px;
+    border: none;
+    border-radius: 0 16px 16px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s ease;   
+  }
+  .searchButton:hover{
+    background-color: blue;
+    transform: scale(1.02);
+  }
+  .mobileSearch{
+    display: none;
+  }
+ 
+
+
+/*************************************************************************************
+************************************ MEDIA QUERIES ***********************************
+*************************************************************************************/
+
+@media screen and (max-width: 768px) {
+
+    /***************************Section SearchForm***************************************/
+
+    #searchform .mainform input[type="text"] {
+        width: 80%;
+      }
+      .searchButton{
+        position: relative;
+        left: -11px;
+        padding: 0 16px;
+        border-radius: 1rem;
+      }
+      .desktopSearch {
+        display: none;
+      }
+      .mobileSearch {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+}

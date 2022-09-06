@@ -1,0 +1,71 @@
+/***************************Section Filters***************************************/
+
+#filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 24px;
+}
+#filters .title {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-right: 16px;
+  margin-bottom: 32px;
+}
+#filters ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+#filters ul li {
+  display: flex;
+  align-items: center;
+  margin-right: 16px;
+  border: 2px solid var(--lightgrey);
+  border-radius: 32px;
+  margin-bottom: 16px;
+  transition: 0.3s ease;
+}
+#filters ul li:hover {
+  transform: scale(1.03);
+}
+
+#filters ul li span {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  background: var(--lightgrey);
+  color: var(--blue);
+  border-radius: 50px;
+}
+#filters ul li a {
+  display: inline;
+  padding: 0 16px;
+  font-weight: 700;
+}
+
+/***************************Section FiltersInfo***************************************/
+
+header .filtersInfo {
+  height: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 32px;
+  gap: 15px;
+}
+header .filtersInfo span {
+  height: 100%;
+  color: var(--blue);
+  font-size: 10px;
+  padding: 3px 7px;
+  border: 1px solid var(--darkgrey);
+  border-radius: 50%;
+}
+header .filtersInfo .text {
+  height: 100%;
+}
