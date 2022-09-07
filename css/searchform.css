@@ -13,23 +13,19 @@
     font-size: 14px;
     margin-bottom: 32px;
   }
-  .mainform {
+  form {
     width: 100%;
     display: flex;
     border-radius: 16px;   
     
   }
-  .mainform .search {
-    position: relative;
-    
-  }
-  .mainform > label {
+   form > label {
     padding: 16px;
     background: var(--grey);
     border-radius:16px 0 0 16px;
   }
-  .mainform input[type="text"] {
-    padding: 14px;
+  form input[type="text"] {
+    padding: 16px;
     border: none;
     border-top: 1px solid var(--grey);
     border-bottom: 1px solid var(--grey);
@@ -43,7 +39,7 @@
   input[type="text"]:focus {
     outline: none;
   }
-  .searchButton{
+  button {
     background: var(--blue);
     color: var(--white);
     font-weight: 700;
@@ -55,7 +51,7 @@
     cursor: pointer;
     transition: .3s ease;   
   }
-  .searchButton:hover{
+  button:hover{
     background-color: blue;
     transform: scale(1.02);
   }
@@ -76,7 +72,7 @@
     #searchform .mainform input[type="text"] {
         width: 80%;
       }
-      .searchButton{
+      button{
         position: relative;
         left: -11px;
         padding: 0 16px;
