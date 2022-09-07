@@ -38,6 +38,7 @@ header {
   /***************************Section Navigation***************************************/
   #navigation {
     flex-direction: column;
+    margin-bottom: 36px;
   }
   #navigation .logo {
     display: flex;
