@@ -21,10 +21,12 @@ header {
   }
   #navigation .menu a {
     padding: 45px 16px;
-    border: 2px solid var(--white);
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
   }
+
   #navigation .menu a:hover {
-    border-top: 2px solid var(--blue);
+    border-top: 3px solid var(--blue);
     color: var(--blue);
   }
 
@@ -64,6 +66,7 @@ header {
   #navigation .menu a:hover {
     border: none;
     color: var(--blue);
+    border-top: 3px solid transparent;
     border-bottom: 3px solid var(--blue);
   }
  
