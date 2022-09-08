@@ -112,11 +112,10 @@
     display: flex;
   }
   .cont-2 {
-    flex-direction:row;
+    flex-direction: row;
     gap: 24px;
     width: 65%;
     order: 2;
-
   }
   .card__item--2 {
     height: 220px;
@@ -131,16 +130,13 @@
     width: 32%;
     gap: 24px;
     order: 2;
-
-
   }
   .cont-4 {
     flex-direction: column;
-    flex-direction:row;
+    flex-direction: row;
     gap: 24px;
     width: 65%;
     order: 2;
-
   }
   .card__item--5 {
     height: 220px;
@@ -152,7 +148,7 @@
   }
 }
 
-@media screen and (max-width:864px) {
+@media screen and (max-width: 864px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {
     display: flex;
@@ -166,13 +162,12 @@
 
   .cont-1 {
     height: 220px;
-    width:48%;
+    width: 48%;
     order: 2;
   }
   .card__item--1 {
     display: flex;
     width: 100%;
-
   }
   .cont-2 {
     flex-direction: row;
@@ -214,7 +209,7 @@
   }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {
     display: flex;
@@ -228,12 +223,11 @@
 
   .cont-1 {
     height: 220px;
-    width:100%;
+    width: 100%;
   }
   .card__item--1 {
     display: flex;
     width: 100%;
-
   }
   .cont-2 {
     flex-direction: row;
@@ -276,4 +270,3 @@
     display: flex;
   }
 }
-

@@ -2,16 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
 
 /***********************************Imports Stylesheets *********************************************/
-@import 'header.css';
-@import 'searchform.css';
-@import 'filter.css';
+@import "header.css";
+@import "searchform.css";
+@import "filter.css";
 /* @import 'lodging_grid.css'; */
-@import 'lodging_flex.css';
+@import "lodging_flex.css";
 /* @import 'activities_grid.css'; */
-@import 'activities_flex.css';
-@import 'footer.css';
+@import "activities_flex.css";
+@import "footer.css";
 
-/****************************************** Styles Générals *****************************************/
+/****************************************** Styles Généraux *****************************************/
 * {
   margin: 0;
   padding: 0;
@@ -38,26 +38,10 @@ li {
   list-style-type: none;
 }
 
-.global__wrapper{
+.global__wrapper {
   max-width: 1440px;
   margin: 0 auto;
 }
-.wrapper {  
-    padding: 0 32px;
+.wrapper {
+  padding: 0 32px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

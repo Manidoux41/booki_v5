@@ -1,36 +1,37 @@
 /*************************** FOOTER **************************************/
 
 footer {
-   background-color: var(--grey);
+  background-color: var(--grey);
 }
 .footer__container {
-    max-width: 1376px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 40px;
-    padding-bottom: 24px;
-    /* gap: 2rem; */
-    
+  max-width: 1376px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 24px;
+  /* gap: 2rem; */
 }
-.about, .helpAssist, .ourLodging {
-    padding-bottom: 32px;
-    width: 400px;
-    height: auto;
-    display: flex;
-    flex-direction: column;        
+.about,
+.helpAssist,
+.ourLodging {
+  padding-bottom: 32px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.footer__container h4{
-    font-size: 16px;
-    font-weight: 700;
-    padding-bottom: 7px;
+.footer__container h4 {
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 7px;
 }
 .footer__container li {
-    padding: 5px 0;
+  padding: 5px 0;
 }
-.footer__container li a:hover{
-    font-weight: 600;
-    color: var(--blue);
+.footer__container li a:hover {
+  font-weight: 600;
+  color: var(--blue);
 }
