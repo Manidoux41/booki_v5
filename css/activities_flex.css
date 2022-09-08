@@ -11,6 +11,7 @@
   height: 430px;
   width: 1376;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   gap: 2%;
 }
@@ -32,24 +33,17 @@
 .activity__card:hover {
   transform: scale(1.03);
 }
-.card__item--1 {
+.card__item--1, .card__item--4 {
   height: 100%;
 }
-.card__item--2 {
+.card__item--2,.card__item--6 {
   height: 57%;
 }
-.card__item--3 {
+.card__item--3,.card__item--5 {
   height: 37%;
 }
-.card__item--4 {
-  height: 100%;
-}
-.card__item--5 {
-  height: 37%;
-}
-.card__item--6 {
-  height: 57%;
-}
+ 
+
 
 /* Card Link */
 .card__link {
@@ -91,187 +85,31 @@
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
 
-@media screen and (max-width: 991px) {
+
+
+@media screen and (max-width: 550px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 24px;
-  }
-
-  .cont-1 {
-    height: 220px;
-    width: 32%;
-    order:0;
-  }
-  .card__item--1 {
-    display: flex;
-  }
-  .cont-2 {
-    flex-direction: row;
-    gap: 24px;
-    width: 65%;
-    order:0;
-  }
-  .card__item--2 {
-    height: 220px;
-    display: flex;
-  }
-  .card__item--3 {
-    height: 220px;
-    display: flex;
-  }
-  .cont-3 {
-    height: 220px;
-    width: 32%;
-    gap: 24px;
-    order: 0;
-  }
-  .cont-4 {
-    flex-direction: column;
-    flex-direction: row;
-    gap: 24px;
-    width: 65%;
-    order: 0;
-  }
-  .card__item--5 {
-    height: 220px;
-    display: flex;
-  }
-  .card__item--6 {
-    height: 220px;
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 863px) {
-  /***************************Section Activities **************************************/
-  #activities .activitiesList {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    align-items: center;
-    /* flex-wrap: wrap; */
-    gap: 24px;
-  }
-
-  .cont-1 {
-    height: 220px;
-    width: 48%;
-    order: 1;
-  }
-  .card__item--1 {
-    display: flex;
-    width: 100%;
-  }
-  .cont-2 {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 24px;
-    width: 100%;
-    order: 0;
-
-  }
-  .card__item--2 {
-    height: 220px;
-    width: 48%;
-    display: flex;
-  }
-  .card__item--3 {
-    height: 220px;
-    width: 48%;
-    display: flex;
-  }
-  .cont-3 {
-    height: 220px;
-    width: 48%;
-    gap: 24px;
-    order: 1;
-  }
-  .cont-4 {
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 24px;
-  }
-  .card__item--5 {
-    height: 220px;
-    width: 48%;
-    display: flex;
-  }
-  .card__item--6 {
-    height: 220px;
-    width: 48%;
-    display: flex;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  /***************************Section Activities **************************************/
-  #activities .activitiesList {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    width: 100%;
-    align-items: center;
-    /* flex-wrap: wrap; */
-    gap: 24px;
-  }
-
-  .cont-1 {
-    height: 220px;
-    width: 100%;
-    order: 0;
-
-  }
-  .card__item--1 {
-    display: flex;
-    width: 100%;
-  }
-  .cont-2 {
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 24px;
-    width: 100%;
-    order:0;
-  }
-  .card__item--2 {
-    height: 220px;
-    width: 100%;
-    display: flex;
     
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    gap: 24px;;
   }
-  .card__item--3 {
+
+  .cont-1, .cont-3,.cont-2, .cont-4 {
     height: 220px;
     width: 100%;
-    display: flex;
   }
-  .cont-3 {
-    height: 220px;
-    width: 100%;
-    gap: 24px;
-    order: 0;
-  }
-  .cont-4 {
+  .cont-2, .cont-4 {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    gap: 24px;
-    order: 0;
+    gap: 24px;  
   }
-  .card__item--5 {
+  .card__item--2, .card__item--3,.card__item--5,.card__item--6 {
     height: 220px;
-    width: 100%;
-    display: flex;    
-  }
-  .card__item--6 {
-    height: 220px;
-    width: 100%;
-    display: flex;
-  }
+    width: 100%;    
+  }  
 }
