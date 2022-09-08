@@ -148,7 +148,7 @@
   }
 }
 
-@media screen and (max-width: 864px) {
+@media screen and (max-width: 863px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {
     display: flex;
@@ -211,7 +211,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {
     display: flex;

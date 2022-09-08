@@ -22,8 +22,11 @@
   display: flex;
   align-items: center;
   margin-right: 16px;
-  border: 2px solid var(--lightgrey);
-  border-radius: 32px;
+  border: none;
+  border-top: 2px solid var(--lightgrey);
+  border-bottom: 2px solid var(--lightgrey);
+  border-right: 2px solid var(--lightgrey);
+  border-radius: 50px;
   margin-bottom: 16px;
   transition: 0.3s ease;
 }
@@ -37,7 +40,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 16px;
+  padding: 21px;
   background: var(--lightgrey);
   color: var(--blue);
   border-radius: 50px;
