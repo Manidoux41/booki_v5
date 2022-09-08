@@ -13,20 +13,20 @@ p {
   font-size: 14px;
   margin-bottom: 32px;
 }
-.mainform {
+form {
   width: 100%;
   display: flex;
   border-radius: 16px;
 }
-.mainform .search {
+form .search {
   position: relative;
 }
-.mainform > label {
+form > label {
   padding: 16px;
   background: var(--grey);
   border-radius: 16px 0 0 16px;
 }
-.mainform input[type="text"] {
+form input[type="text"] {
   padding: 14px;
   border: none;
   border-top: 1px solid var(--grey);
@@ -41,7 +41,7 @@ input[type="text"]::placeholder {
 input[type="text"]:focus {
   outline: none;
 }
-.searchButton {
+button {
   background: var(--blue);
   color: var(--white);
   font-weight: 700;
@@ -53,7 +53,7 @@ input[type="text"]:focus {
   cursor: pointer;
   transition: 0.3s ease;
 }
-.searchButton:hover {
+button:hover {
   background-color: blue;
   transform: scale(1.02);
 }
