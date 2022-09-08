@@ -164,13 +164,10 @@
     order: -1;
   }
   #lodging .cityLodging {
-    /* display: flex;
-    flex-direction: column; */
     gap: 16px;
   }
   .cityLodging .cardContainer {
     flex-direction: row;
-    /* justify-content: space-between; */
     width: 100%;
   }
   .cityLodging .cardContainer .card {
@@ -183,11 +180,6 @@
     display: flex;
     height: 202px;
   }
-  /* .cityLodging .cardContainer .card .image img {
-    width: 100%;
-    object-fit: cover;
-    background-position: center;
-  } */
 
   .mostPopular .cardContainer .card .image img {
     width: 100%;
