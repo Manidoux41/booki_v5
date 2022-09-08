@@ -106,6 +106,7 @@
   .cont-1 {
     height: 220px;
     width: 32%;
+    order: 2;
   }
   .card__item--1 {
     display: flex;
@@ -114,6 +115,8 @@
     flex-direction:row;
     gap: 24px;
     width: 65%;
+    order: 2;
+
   }
   .card__item--2 {
     height: 220px;
@@ -127,12 +130,17 @@
     height: 220px;
     width: 32%;
     gap: 24px;
+    order: 2;
+
+
   }
   .cont-4 {
     flex-direction: column;
     flex-direction:row;
     gap: 24px;
     width: 65%;
+    order: 2;
+
   }
   .card__item--5 {
     height: 220px;
@@ -221,7 +229,6 @@
   .cont-1 {
     height: 220px;
     width:100%;
-    order: 2;
   }
   .card__item--1 {
     display: flex;
@@ -233,6 +240,7 @@
     flex-wrap: wrap;
     gap: 24px;
     width: 100%;
+    order: 4;
   }
   .card__item--2 {
     height: 220px;
@@ -248,13 +256,14 @@
     height: 220px;
     width: 100%;
     gap: 24px;
-    order: 1;
+    order: 2;
   }
   .cont-4 {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     gap: 24px;
+    order: 3;
   }
   .card__item--5 {
     height: 220px;
