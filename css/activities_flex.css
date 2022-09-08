@@ -2,7 +2,7 @@
 #activities {
   margin-bottom: 72px;
   max-width: 100%;
-  height: auto;
+  maxheight: auto;
 }
 #activities .title {
   margin-bottom: 2.5rem;
@@ -42,8 +42,6 @@
 .card__item--3,.card__item--5 {
   height: 37%;
 }
- 
-
 
 /* Card Link */
 .card__link {
@@ -89,27 +87,24 @@
 
 @media screen and (max-width: 550px) {
   /***************************Section Activities **************************************/
-  #activities .activitiesList {
-    
+  #activities .activitiesList {    
     flex-direction: column;
-    height: auto;
+    height: 100%;
     width: 100%;
-    align-items: center;
+    padding-bottom: 210px;
     gap: 24px;;
   }
 
-  .cont-1, .cont-3,.cont-2, .cont-4 {
+  .cont-1, .cont-3,.cont-2, .cont-4,.card__item--2, .card__item--3,.card__item--5,.card__item--6 {
     height: 220px;
     width: 100%;
   }
   .cont-2, .cont-4 {
+    height: 220px;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     gap: 24px;  
   }
-  .card__item--2, .card__item--3,.card__item--5,.card__item--6 {
-    height: 220px;
-    width: 100%;    
-  }  
+ 
 }
