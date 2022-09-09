@@ -16,17 +16,17 @@ header {
 #navigation .logo img {
   width: 100px;
 }
-#navigation .menu {
+#navigation nav {
   display: flex;
   padding-right: 32px;
 }
-#navigation .menu a {
+#navigation nav a {
   padding: 45px 16px;
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
 }
 
-#navigation .menu a:hover {
+#navigation nav a:hover {
   border-top: 3px solid var(--blue);
   color: var(--blue);
 }
@@ -52,18 +52,18 @@ header {
     margin-bottom: 24px;
   }
 
-  #navigation .menu {
+  #navigation nav {
     width: 100%;
     justify-content: space-around;
     padding-right: 0;
   }
-  #navigation .menu a {
+  #navigation nav a {
     width: 100%;
     padding: 16px 0;
     text-align: center;
     border-bottom: 3px solid var(--darkgrey);
   }
-  #navigation .menu a:hover {
+  #navigation nav a:hover {
     border: none;
     color: var(--blue);
     border-top: 3px solid transparent;
