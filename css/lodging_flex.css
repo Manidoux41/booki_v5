@@ -8,8 +8,10 @@
   gap: 24px;
   margin-bottom: 64px;
 }
+
 #lodging .card {
   box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+  cursor: pointer;
 }
 .cityLodging {
   flex: 2;
