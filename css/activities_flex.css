@@ -2,11 +2,9 @@
 #activities {
   margin-bottom: 72px;
   max-width: 100%;
-  maxheight: auto;
 }
 #activities .activitiesList {
   height: 500px;
-  width: 1376;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
