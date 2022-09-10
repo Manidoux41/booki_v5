@@ -165,33 +165,14 @@
   #lodging .mostPopular {
     order: -1;
   }
-  #lodging .cityLodging {
-    gap: 16px;
-  }
-  .cityLodging .cardContainer {
-    flex-direction: row;
-    width: 100%;
-  }
   .cityLodging .cardContainer .card {
     width: 48%;
     height: 222px;
   }
-  .mostPopular .cardContainer .card {
-    display: flex;
-    height: 150px;
-  }
-
   /***************************Most Popular***************************************/
   .mostPopular .cardContainer .card {
-    display: flex;
     height: 202px;
-  }
-
-  .mostPopular .cardContainer .card .image img {
-    width: 100%;
-    object-fit: cover;
-    background-position: center;
-  }
+  } 
 }
 
 /* Media screen 768px */
@@ -205,7 +186,6 @@
   }
 
   .mostPopular .cardContainer .card {
-    display: flex;
     height: 150px;
   }
 }

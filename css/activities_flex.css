@@ -22,6 +22,7 @@
   justify-content: space-between;
   height: 100%;
 }
+
 /* Card Layout */
 .activity__card {
   width: 100%;
@@ -62,7 +63,6 @@
 }
 
 /* Card Overlay */
-
 .card__overlay {
   position: absolute;
   left: 0;
@@ -82,9 +82,6 @@
 /*************************************************************************************
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
-
-
-
 @media screen and (max-width: 550px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {    
