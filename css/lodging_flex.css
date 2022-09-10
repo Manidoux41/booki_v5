@@ -176,6 +176,10 @@
     width: 48%;
     height: 222px;
   }
+  .mostPopular .cardContainer .card {
+    display: flex;
+    height: 150px;
+  }
 
   /***************************Most Popular***************************************/
   .mostPopular .cardContainer .card {
@@ -199,8 +203,9 @@
   .mostPopular .cardContainer .card .content h3 {
     font-size: 16px;
   }
+
   .mostPopular .cardContainer .card {
     display: flex;
-    height: 202px;
+    height: 150px;
   }
 }
