@@ -8,12 +8,12 @@
   margin-bottom: 2.5rem;
 }
 #activities .activitiesList {
-  height: 430px;
+  height: 500px;
   width: 1376;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 2%;
+  gap:3px;
 }
 .card__container {
   display: flex;
@@ -38,10 +38,10 @@
   height: 100%;
 }
 .card__item--2,.card__item--6 {
-  height: 57%;
+  height: 52%;
 }
 .card__item--3,.card__item--5 {
-  height: 37%;
+  height: 44%;
 }
 
 /* Card Link */
