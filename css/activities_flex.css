@@ -95,7 +95,7 @@
     gap: 24px;;
   }
 
-  .cont-1, .cont-3,.cont-2, .cont-4,.card__item--2, .card__item--3,.card__item--5,.card__item--6 {
+  .activitiesList > *,.card__item--2, .card__item--3,.card__item--5,.card__item--6 {
     height: 220px;
     width: 100%;
   }

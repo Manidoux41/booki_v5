@@ -71,7 +71,7 @@ button:hover {
   #searchform .mainform input[type="text"] {
     width: 80%;
   }
-  .searchButton {
+  button {
     position: relative;
     left: -11px;
     padding: 0 16px;

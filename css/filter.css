@@ -20,34 +20,38 @@
 }
 #filters ul li {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-right: 16px;
-  border: none;
-  border-top: 2px solid var(--lightgrey);
-  border-bottom: 2px solid var(--lightgrey);
-  border-right: 2px solid var(--lightgrey);
+  border: 2px solid var(--darkgrey);
+  /* border-top: 2px solid var(--darkgrey);
+  border-bottom: 2px solid var(--darkgrey);
+  border-right: 2px solid var(--darkgrey); */
   border-radius: 50px;
   margin-bottom: 16px;
   transition: 0.3s ease;
 }
 #filters ul li:hover {
   transform: scale(1.03);
+  background: var(--lightgrey);
+
 }
 
 #filters ul li span {
-  width: 40px;
-  height: 40px;
+  width: 18px;
+  height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 21px;
   background: var(--lightgrey);
   color: var(--blue);
-  border-radius: 50px;
+  border-radius: 25px;
+  margin-left: -4px;
 }
 #filters ul li a {
   display: inline;
-  padding: 0 16px;
+  padding: 0 16px 0 16px;
   font-weight: 700;
 }
 
