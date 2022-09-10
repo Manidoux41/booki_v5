@@ -47,13 +47,6 @@
 }
 
 /***************************City Lodging***************************************/
-
-.cityLodging .title,
-.mostPopular .title {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 12px;
-}
 .cityLodging .cardContainer {
   width: 100%;
   display: flex;
