@@ -71,9 +71,9 @@ button:hover {
 @media screen and (max-width: 768px) {
   /***************************Section SearchForm***************************************/
 
-  #searchform .mainform input[type="text"] {
-    width: 80%;
-  }
+  #searchform form{
+    width: 100%;
+  }  
   button {
     position: relative;
     left: -11px;
