@@ -26,6 +26,9 @@ form > label {
   background: var(--grey);
   border-radius: 16px 0 0 16px;
 }
+form label p {
+  display: none;
+}
 form input[type="text"] {
   padding: 14px;
   border: none;
