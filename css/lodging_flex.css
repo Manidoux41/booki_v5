@@ -132,7 +132,6 @@
 *************************************************************************************/
 
 @media screen and (max-width: 992px) {
-
   /*************************** SECTION LODGING ***************************************/
   #lodging {
     display: flex;
@@ -147,11 +146,10 @@
   .cityLodging .cardContainer .card {
     width: 48%;
   }  
-
+}
 /* Media screen 768px */
 @media screen and (max-width: 550px) {
-    /*************************** SECTION LODGING ***************************************/
-
+  /*************************** SECTION LODGING ***************************************/
   .cityLodging .cardContainer .card {
     width: 100%;
   }
