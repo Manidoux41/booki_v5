@@ -4,11 +4,12 @@ footer {
   background-color: var(--grey);
 }
 .footer__container {
-  max-width: 1376px;
-  margin: 0 auto;
+  /* max-width: 1376px;
+  margin: 0 auto; */
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   padding-top: 40px;
   /* padding-bottom: 24px; */
   /* gap: 10px; */
@@ -16,9 +17,9 @@ footer {
 .about,
 .helpAssist,
 .ourLodging {
-  padding-bottom: 32px;
-  width: 400px;
-  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -34,4 +35,10 @@ footer {
 .footer__container li a:hover {
   font-weight: 600;
   color: var(--blue);
+}
+
+@media screen and (max-width:768px) {
+  .footer__container {
+    flex-direction: column;
+  }
 }
