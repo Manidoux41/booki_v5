@@ -75,21 +75,19 @@ button:hover {
     max-width: 100%;
     margin: 0 auto;
   }  
+  form input[type="text"] {
+    width: 95%;
+   }
   button {
     position: relative;
     left: -11px;
     padding: 0 16px;
     border-radius: 1rem;
-  }
-  form input[type="text"] {
-   width: 95%;
-  }
+  }  
   .desktopSearch {
     display: none;
   }
   .mobileSearch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;    
   }
 }
