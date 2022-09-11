@@ -6,7 +6,7 @@
 #lodging {
   display: flex;
   gap: 24px;
-  margin-bottom: 64px;
+  margin-bottom: 35px;
 }
 
 #lodging .card {

@@ -4,19 +4,19 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding-top: 24px;
+  margin-bottom: 35px
 }
 #filters .title {
   display: flex;
   align-items: center;
   font-weight: 700;
   margin-right: 16px;
-  margin-bottom: 40px;
+  margin-bottom: 25px;
 }
 #filters ul {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 16px;
 }
 #filters ul li {
   display: flex;
@@ -24,17 +24,13 @@
   align-items: center;
   margin-right: 16px;
   border: 2px solid var(--darkgrey);
-  /* border-top: 2px solid var(--darkgrey);
-  border-bottom: 2px solid var(--darkgrey);
-  border-right: 2px solid var(--darkgrey); */
   border-radius: 50px;
-  margin-bottom: 16px;
   transition: 0.3s ease;
+  margin-bottom: 15px;
 }
 #filters ul li:hover {
   transform: scale(1.03);
   background: var(--lightgrey);
-
 }
 
 #filters ul li span {
@@ -43,7 +39,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 17px;
+  padding: 20px;
   background: var(--lightgrey);
   color: var(--blue);
   border-radius: 25px;
@@ -62,7 +58,7 @@ header .filtersInfo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 32px;
+  margin-bottom: 35px;
   gap: 15px;
 }
 header .filtersInfo span {
