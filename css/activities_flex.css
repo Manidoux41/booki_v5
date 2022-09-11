@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
-  gap:3px;
+  gap: 3px;
 }
 .card__container {
   display: flex;
@@ -30,13 +30,16 @@
 .activity__card:hover {
   transform: scale(1.03);
 }
-.card__item--1, .card__item--4 {
+.card__item--1,
+.card__item--4 {
   height: 100%;
 }
-.card__item--2,.card__item--6 {
+.card__item--2,
+.card__item--6 {
   height: 52%;
 }
-.card__item--3,.card__item--5 {
+.card__item--3,
+.card__item--5 {
   height: 44%;
 }
 
@@ -80,23 +83,28 @@
 *************************************************************************************/
 @media screen and (max-width: 550px) {
   /***************************Section Activities **************************************/
-  #activities .activitiesList {    
+  #activities .activitiesList {
     flex-direction: column;
     height: 100%;
     width: 100%;
     padding-bottom: 210px;
-    gap: 24px;;
+    gap: 24px;
   }
 
-  .activitiesList > *,.card__item--2, .card__item--3,.card__item--5,.card__item--6 {
+  .activitiesList > *,
+  .card__item--2,
+  .card__item--3,
+  .card__item--5,
+  .card__item--6 {
     height: 220px;
     width: 100%;
   }
-  .cont-2, .cont-4 {
+  .cont-2,
+  .cont-4 {
     height: 220px;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    gap: 24px;  
-  } 
+    gap: 24px;
+  }
 }

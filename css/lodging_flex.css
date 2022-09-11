@@ -46,7 +46,7 @@
   color: var(--blue);
 }
 
-/*Effets sur les card */
+/*Effets sur les cards */
 .cityLodging .cardContainer .card,
 .mostPopular .cardContainer .card {
   transition: 0.2s ease all;

@@ -66,23 +66,23 @@ button:hover {
 @media screen and (max-width: 768px) {
   /***************************Section SearchForm***************************************/
 
-  #searchform form{
+  #searchform form {
     max-width: 100%;
     margin: 0 auto;
-  }  
+  }
   form input[type="text"] {
     width: 95%;
-   }
+  }
   button {
     position: relative;
     left: -11px;
     padding: 0 16px;
     border-radius: 1rem;
-  }  
+  }
   .desktopSearch {
     display: none;
   }
   .mobileSearch {
-    display: flex;    
+    display: flex;
   }
 }

@@ -32,7 +32,7 @@ footer {
   color: var(--blue);
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   .footer__container {
     flex-direction: column;
   }
