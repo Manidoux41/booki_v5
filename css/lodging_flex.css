@@ -98,7 +98,6 @@
 }
 .mostPopular .cardContainer .card {
   display: flex;
-  /* height: 150px; */
   background: var(--white);
   border:10px solid var(--white);
   border-radius: 24px;
