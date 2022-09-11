@@ -72,13 +72,17 @@ button:hover {
   /***************************Section SearchForm***************************************/
 
   #searchform form{
-    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
   }  
   button {
     position: relative;
     left: -11px;
     padding: 0 16px;
     border-radius: 1rem;
+  }
+  form input[type="text"] {
+   width: 95%;
   }
   .desktopSearch {
     display: none;
