@@ -9,6 +9,9 @@ header {
   align-items: center;
   margin-bottom: 24px;
 }
+#navigation h1 {
+  display: none;
+}
 #navigation .logo {
   cursor: pointer;
   padding-left: 48px;
