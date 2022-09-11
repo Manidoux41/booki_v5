@@ -139,6 +139,9 @@
     display: flex;
     flex-direction: column;
   }
+  .cityLodging .cardContainer .card .image img {
+    height: 160px;
+    } 
   #lodging .mostPopular {
     order: -1;
   }
@@ -153,6 +156,9 @@
   .cityLodging .cardContainer .card {
     width: 100%;
   }
+  .cityLodging .cardContainer .card .image img {
+    height: 170px;
+    } 
   .mostPopular .cardContainer .card .content h4 {
     font-size: 16px;
   }
