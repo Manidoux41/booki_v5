@@ -8,10 +8,19 @@
   gap: 24px;
   margin-bottom: 45px;
 }
-
+.blue {
+  color: var(--blue);
+}
+.grey {
+  color: var(--darkgrey);
+}
 #lodging .card {
   box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
+  transition: 0.2s ease all;
   cursor: pointer;
+}
+#lodging .card:hover {
+  transform: scale(1.02);
 }
 .cityLodging {
   flex: 2;
@@ -29,12 +38,6 @@
   gap: 16px;
 }
 
-.blue {
-  color: var(--blue);
-}
-.grey {
-  color: var(--darkgrey);
-}
 .cityLodging a {
   padding-left: 12px;
   font-size: 16px;
@@ -46,12 +49,6 @@
   color: var(--blue);
 }
 
-#lodging .card {
-  transition: 0.2s ease all;
-}
-#lodging .card:hover {
-  transform: scale(1.02);
-}
 #lodging .cardContainer {
   display: flex;
   gap: 16px;
