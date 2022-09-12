@@ -9,9 +9,6 @@ header {
   align-items: center;
   margin-bottom: 24px;
 }
-#navigation h1 {
-  display: none;
-}
 #navigation .logo {
   cursor: pointer;
   padding-left: 48px;
@@ -25,12 +22,12 @@ header {
 }
 #navigation nav a {
   padding: 45px 16px;
-  border-top: 3px solid transparent;
-  border-bottom: 3px solid transparent;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
 }
 
 #navigation nav a:hover {
-  border-top: 3px solid var(--blue);
+  border-top: 2px solid var(--blue);
   color: var(--blue);
 }
 
@@ -64,12 +61,12 @@ header {
     width: 100%;
     padding: 16px 0;
     text-align: center;
-    border-bottom: 3px solid var(--darkgrey);
+    border-bottom: 2px solid var(--darkgrey);
   }
   #navigation nav a:hover {
     border: none;
     color: var(--blue);
-    border-top: 3px solid transparent;
-    border-bottom: 3px solid var(--blue);
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid var(--blue);
   }
 }

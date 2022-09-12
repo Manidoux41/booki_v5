@@ -46,40 +46,44 @@
   color: var(--blue);
 }
 
-/*Effets sur les cards */
-.cityLodging .cardContainer .card,
-.mostPopular .cardContainer .card {
+#lodging .card {
   transition: 0.2s ease all;
 }
-.cityLodging .cardContainer .card:hover,
-.mostPopular .cardContainer .card:hover {
+#lodging .card:hover {
   transform: scale(1.02);
 }
+#lodging .cardContainer {
+  display: flex;
+  gap: 16px;
+}
+#lodging .card {
+  display: flex;
+  background: var(--white);
+  border:5px solid var(--white);
+  border-radius: 16px;
+  overflow: hidden;
+}
+#lodging img {
+  object-fit: cover;
+  width: 100%;
+}
+
 /***************************City Lodging***************************************/
 .cityLodging .cardContainer {
   width: 100%;
-  display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap: 16px;
 }
 /* Card */
-.cityLodging .cardContainer .card {
-  display: flex; 
+.cityLodging .cardContainer .card {  
   flex-wrap: wrap;  
   width: 31%;
-  background: var(--white);
-  border:10px solid var(--white);
-  border-radius: 24px;
-  overflow: hidden;
 }
 .cityLodging .cardContainer .card .image {
   width:100%;
 }
 .cityLodging .cardContainer .card .image img {
-  height: 120px;
-  object-fit: cover;
-  width: 100%;
+  height: 90px;
   } 
 .cityLodging .cardContainer .card .content {
   width: 100%;
@@ -92,24 +96,14 @@
 /***************************Most Popular***************************************/
 
 .mostPopular .cardContainer {
-  display: flex;
   flex-direction: column;
-  gap: 16px;
-}
-.mostPopular .cardContainer .card {
-  display: flex;
-  background: var(--white);
-  border:10px solid var(--white);
-  border-radius: 24px;
-  overflow: hidden;
 }
 .mostPopular .cardContainer .card .image {
+  height: 150px;
   width: 38%;
 }
 .mostPopular .cardContainer .card .image img {
-  object-fit: cover;
-  height: 150px;
-  width: 100%;
+  height: 100%;
 }
 .mostPopular .cardContainer .card .content {
   width: 58%;
@@ -117,7 +111,6 @@
   flex-direction: column;
   justify-content: space-between;
   padding: 3px 7px;
-
 }
 .mostPopular .cardContainer .card .content .contentText {
   display: inline;
