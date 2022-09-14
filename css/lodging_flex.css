@@ -20,8 +20,7 @@
   cursor: pointer;
 }
 #lodging .card:hover {
-  opacity: 0.85;
-  /* transform: scale(1.02); */
+  transform: scale(1.02);
 }
 .cityLodging {
   flex: 2;
@@ -126,11 +125,14 @@
   /*************************** SECTION LODGING ***************************************/
   #lodging {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .cityLodging .cardContainer .card .image img {
     height: 160px;
-    }   
+    } 
+  #lodging .mostPopular {
+    order: -1;
+  }
   .cityLodging .cardContainer .card {
     width: 48%;
   }  
