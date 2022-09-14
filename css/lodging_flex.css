@@ -126,14 +126,11 @@
   /*************************** SECTION LODGING ***************************************/
   #lodging {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .cityLodging .cardContainer .card .image img {
     height: 160px;
-    } 
-  #lodging .mostPopular {
-    order: -1;
-  }
+    }   
   .cityLodging .cardContainer .card {
     width: 48%;
   }  
