@@ -56,6 +56,7 @@ h3 {
 .title {
   display: flex;
   justify-content: space-between;
+  padding: 16px 5px;
 }
 header, main, footer {
   padding-bottom: 35px;
