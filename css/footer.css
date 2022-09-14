@@ -1,6 +1,7 @@
 /*************************** FOOTER **************************************/
 footer {
   background-color: var(--grey);
+  padding-top: 25px;
 }
 .footer__container {
   display: flex;
