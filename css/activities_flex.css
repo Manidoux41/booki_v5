@@ -1,15 +1,12 @@
 /***************************Section Activities **************************************/
 #activities {
   margin-bottom: 45px;
-  max-width: 100%;
 }
 #activities .activitiesList {
   height: 500px;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
-  gap: 3px;
 }
 .card__container {
   display: flex;
