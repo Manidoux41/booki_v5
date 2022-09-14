@@ -27,8 +27,9 @@
   box-shadow: 5px 5px 16px rgba(158, 158, 199, 0.151);
   transition: 0.2s ease all;
 }
-.activity__card:hover {
-  transform: scale(1.03);
+.activity__card:hover  {
+  /* transform: scale(1.03); */
+  opacity: 0.85;
 }
 .card__item--1,
 .card__item--4 {

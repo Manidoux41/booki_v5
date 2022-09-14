@@ -20,7 +20,8 @@
   cursor: pointer;
 }
 #lodging .card:hover {
-  transform: scale(1.02);
+  opacity: 0.85;
+  /* transform: scale(1.02); */
 }
 .cityLodging {
   flex: 2;
