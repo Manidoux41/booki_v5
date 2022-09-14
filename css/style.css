@@ -60,3 +60,12 @@ h3 {
 header, main, footer {
   padding-bottom: 35px;
 }
+.card{
+  border-radius: 16px;
+  background: var(--white);
+  overflow: hidden;
+  transition: 0.2s ease all;
+}
+.card:hover  {
+  opacity: 0.85;
+}

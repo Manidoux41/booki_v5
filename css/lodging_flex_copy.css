@@ -9,7 +9,7 @@
   width: 100%;
   display: flex;
   gap: 16px;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
 }
 .citylodging {
   width:70%;
@@ -32,12 +32,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-#lodging .card{
-  border-radius: 16px;
-  margin-bottom: 16px;
-  background: var(--white);
-  border: 8px solid var(--white);
-  overflow: hidden;
+#lodging .card{  
+  margin-bottom: 16px;  
+  border: 8px solid var(--white);  
 }
 #lodging a:hover {  
   opacity: .75;
