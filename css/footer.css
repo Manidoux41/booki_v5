@@ -26,7 +26,6 @@ footer {
   padding: 5px 0;
 }
 .footer__container li a:hover {
-  font-weight: 600;
   color: var(--blue);
 }
 /*************************************************************************************
