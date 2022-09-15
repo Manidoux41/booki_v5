@@ -29,7 +29,6 @@
   opacity: 0.85;
   background: var(--lightgrey);
 }
-
 #filters ul li span {
   width: 18px;
   height: 18px;
@@ -47,9 +46,7 @@
   padding: 0 16px;
   font-weight: 700;
 }
-
 /***************************Section FiltersInfo***************************************/
-
 header .filtersInfo {
   height: 20px;
   display: flex;
