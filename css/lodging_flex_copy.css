@@ -1,10 +1,4 @@
 /* MAIN */
-.blue {
-  color: var(--blue);
-}
-.grey {
-  color: var(--darkgrey);
-}
 #lodging {
   max-width: 1380px;
   margin: 0 auto;
@@ -61,7 +55,6 @@
   font-weight: 800;
   padding: 5px 0px 25px 5px;
 }
-
 /** Most Popular **/
 .mostPopular .cardContainer {
   flex-direction: column;
@@ -80,7 +73,6 @@
   justify-content: space-between;
   padding-left: 5px;
 }
-
 /** Media queries **/
 @media screen and (max-width:992px) {
   #lodging {

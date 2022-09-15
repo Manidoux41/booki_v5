@@ -1,6 +1,5 @@
 /***********************************************Fonts ***********************************************/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap");
-
 /***********************************Imports Stylesheets *********************************************/
 @import "header.css";
 @import "searchform.css";
@@ -10,7 +9,6 @@
 @import "footer.css";
 /* @import 'activities_grid.css';
 @import 'lodging_grid.css'; */
-
 /****************************************** Styles Généraux *****************************************/
 * {
   margin: 0;
@@ -36,7 +34,6 @@ a {
 li {
   list-style-type: none;
 }
-
 .global__wrapper {
   max-width: 1440px;
   margin: 0 auto;
@@ -70,3 +67,11 @@ header, main, footer {
 .card:hover  {
   opacity: 0.85;
 }
+.blue {
+  color: var(--blue);
+}
+.grey {
+  color: var(--darkgrey);
+}
+/****************************************** Styles Généraux *****************************************/
+
