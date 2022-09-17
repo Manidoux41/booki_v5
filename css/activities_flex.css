@@ -59,12 +59,40 @@
 /*************************************************************************************
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
+
+@media screen and (max-width: 992px) {
+  /***************************Section Activities **************************************/
+  #activities .activitiesList {
+    flex-direction: row;
+    height: 400px;
+    flex-wrap: wrap;
+    padding-bottom: 220px;
+    gap: 24px;
+  }
+  .cont-1, .cont-3 {
+    width: 31%;
+    height: 200px;
+  }
+  .cont-2, .cont-4{
+    width: 64%;
+    flex-direction: row;
+    gap: 24px;
+
+  }
+  .card__item--2,
+  .card__item--3,
+  .card__item--5,
+  .card__item--6{
+    width: 50%;
+    height: 200px;
+  } 
+}
+
 @media screen and (max-width: 768px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {
     flex-direction: column;
     height: 100%;
-    padding-bottom: 210px;
     gap: 24px;
   }
 
