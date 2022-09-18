@@ -10,19 +10,19 @@ compte pour le développement du nouveau site Booki. L’ensemble de ces
 respecter.
 
 
-● Les usagers pourront rechercher des hébergements dans la ville de
+- Les usagers pourront rechercher des hébergements dans la ville de
 leur choix. Le champ de recherche est un champ de saisie, le texte
 doit donc pouvoir être édité par l’utilisateur. Il faut englober ce
 champ dans un formulaire pour que ce dernier soit valide auprès du
 W3C. La partie recherche ne doit pas être fonctionnelle.
-● Chaque carte d’hébergement ou d’activité devra être cliquable dans
+- Chaque carte d’hébergement ou d’activité devra être cliquable dans
 son intégralité (pas uniquement le titre). Pour l’instant, les liens sont
 vides. On peut utiliser un attribut `href=”#”` pour simuler la
 présence d’un lien.
-● Les filtres doivent changer d’apparence au survol. Je te laisse décider
+- Les filtres doivent changer d’apparence au survol. Je te laisse décider
 de l’effet approprié, je n’ai pas encore eu le temps de me pencher
 dessus. Par contre, ils ne doivent pas être fonctionnels.
-● Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont
+- Les textes “Hébergements” et “Activités”, situés dans l’en-tête, sont
 des liens. Ils doivent mener respectivement vers la section
 “Hébergements à Marseille” et “Activités à Marseille
 
@@ -68,13 +68,17 @@ Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
 As [John Gruber] writes on the [Markdown site][df1]
 
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+> A Noter que ce projet a été réalisé dans le délais
+> imparti, sans que je n'ai eu besoin de relire l'intégralité
+> des cours consacrés au HTML/CSS inhérents à ce 
+> module 2 de la formation suivie.
+> Ces derniers ayant été respectivement suivi en 2017/2018,  > dans le cadre de ma formation en autodidacte.
+> Il peut, néanmoins subsister dans mon code des erreurs qu'un
+> initié pourrait trouvé abberrantes. Vous pouvez par  
+>   conséquent, prendre ce code en exemple, mais utilisez-le > uniquement si vous êtes dans la capacité d'expliquer 
+> comment et pourquoi j'ai utilisé telle ou telle 
+> fonctionnalités et ce que ces dernières produisent 
+> concrètement. 
 
 
 ## Resultat
