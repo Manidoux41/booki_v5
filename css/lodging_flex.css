@@ -37,7 +37,6 @@
   flex-direction: column;
   gap: 16px;
 }
-
 .cityLodging a {
   padding-left: 12px;
   font-size: 16px;
@@ -48,7 +47,6 @@
 .cityLodging a:hover {
   color: var(--blue);
 }
-
 #lodging .cardContainer {
   display: flex;
   gap: 16px;
@@ -64,7 +62,6 @@
   object-fit: cover;
   width: 100%;
 }
-
 /***************************City Lodging***************************************/
 .cityLodging .cardContainer {
   width: 100%;
@@ -89,9 +86,7 @@
 .cityLodging .cardContainer .card .content p{
   margin-bottom: 4px;
 }
-
 /***************************Most Popular***************************************/
-
 .mostPopular .cardContainer {
   flex-direction: column;
 }
@@ -116,11 +111,9 @@
   display: inline-flex;
   flex-direction: row;
 }
-
 /*************************************************************************************
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
-
 @media screen and (max-width: 992px) {
   /*************************** SECTION LODGING ***************************************/
   #lodging {

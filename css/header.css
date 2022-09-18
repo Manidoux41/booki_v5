@@ -1,5 +1,4 @@
 /* HEADER */
-
 /***************************Section Navigation***************************************/
 #navigation {
   display: flex;
@@ -23,16 +22,13 @@
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
 }
-
 #navigation nav a:hover {
   border-top: 2px solid var(--blue);
   color: var(--blue);
 }
-
 /*************************************************************************************
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
-
 @media screen and (max-width: 992px) {
   /* HEADER */
 

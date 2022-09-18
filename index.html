@@ -26,9 +26,9 @@
   </head>
   <body>   
     <!--HEADER-->
-    <header class="global__wrapper">
+    <header>
         <!--navigation-->        
-          <div id="navigation">
+          <div id="navigation" class="global__wrapper">
             <!-- <h1>Booki.com</h1> -->
             <div class="logo">
               <img src="images/logo/Booki.png" alt="logo booki" />
@@ -40,7 +40,7 @@
           </div>
   
           <!--Search Form-->
-          <section id="searchform" class="wrapper">
+          <section id="searchform" class="global__wrapper wrapper">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
             <form>
@@ -55,15 +55,15 @@
               />
               <button>
                 <span class="desktopSearch">Rechercher</span>
-                <span class="mobileSearch"
-                  ><i class="fa-solid fa-magnifying-glass"></i
-                ></span>
+                <span class="mobileSearch">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
               </button>
             </form>
           </section>
   
           <!--Filters-->
-          <section id="filters" class="wrapper">
+          <section id="filters" class="global__wrapper wrapper">
             <div class="title">
               <h2>Filtres</h2>
             </div>
@@ -96,7 +96,7 @@
           </section>
   
           <!--FiltersInfo-->
-          <div class="filtersInfo wrapper">
+          <div class="filtersInfo global__wrapper wrapper">
             <span>
               <i class="fa-solid fa-info"></i>
             </span>
@@ -111,7 +111,7 @@
     <main>             
         <!--Lodging-->
           <section id="lodging">
-            <div class="citylodging">
+            <div class="citylodging wrapper">
               <div class="title">
                 <h2>Hébergements à Marseille</h2>
               </div>
@@ -126,7 +126,7 @@
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
-                      <i class="fa-solid fa-star blue"></i>
+                      <i class="fa-solid fa-star grey"></i>
                     </div>
                   </div>                
                 </a>              
@@ -154,7 +154,7 @@
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
-                      <i class="fa-solid fa-star blue"></i>
+                      <i class="fa-solid fa-star grey"></i>
                     </div>
                   </div>                
                 </a>
@@ -167,8 +167,8 @@
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
-                      <i class="fa-solid fa-star blue"></i>
-                      <i class="fa-solid fa-star blue"></i>
+                      <i class="fa-solid fa-star grey"></i>
+                      <i class="fa-solid fa-star grey"></i>
                     </div>
                   </div>                
                 </a>
@@ -182,7 +182,7 @@
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
-                      <i class="fa-solid fa-star blue"></i>
+                      <i class="fa-solid fa-star grey"></i>
                     </div>
                   </div>                
                 </a>
@@ -201,10 +201,9 @@
                   </div>                
                 </a>
               </div>
-              <a href="#" class="knowmore">Afficher plus</a>          
-            </div>
-  
-            <aside class="mostPopular">
+              <a href="#" class="knowmore wrapper">Afficher plus</a>          
+            </div>  
+            <aside class="mostPopular wrapper">
               <div class="title">
                 <h2>Les plus populaires</h2>
                 <i class="fa-solid fa-star"></i>
@@ -238,7 +237,7 @@
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
                       <i class="fa-solid fa-star blue"></i>
-                      <i class="fa-solid fa-star blue"></i>
+                      <i class="fa-solid fa-star grey"></i>
                     </div>
                   </div>                
                 </a>
@@ -259,8 +258,7 @@
                   </div>                
                 </a>
               </div>            
-            </aside>
-  
+            </aside>  
           </section>
         <!-- Fin de Lodging-->
         <!--Activities-->

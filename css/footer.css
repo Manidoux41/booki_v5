@@ -1,6 +1,7 @@
 /*************************** FOOTER **************************************/
 footer {
   background-color: var(--grey);
+  padding-top: 25px;
 }
 .footer__container {
   display: flex;
@@ -26,14 +27,23 @@ footer {
   padding: 5px 0;
 }
 .footer__container li a:hover {
-  font-weight: 600;
   color: var(--blue);
 }
 /*************************************************************************************
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
+ @media screen and (max-width: 992px) {
+  .footer__container {
+    flex-wrap: wrap;
+  }
+.about,
+.helpAssist,
+.ourLodging{
+  width: 48%;
+}
+} 
 @media screen and (max-width: 768px) {
   .footer__container {
     flex-direction: column;
   }
-}
+} 
