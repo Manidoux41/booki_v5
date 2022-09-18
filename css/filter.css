@@ -23,10 +23,11 @@
   border-radius: 25px;
   transition: 0.3s ease;
   margin-bottom: 15px;
+  overflow: hidden;
 }
 #filters ul li:hover {
-  /* transform: scale(1.03); */
-  background: var(--blue);
+  transform: scale(1.03);
+  background: var(--darkgrey);
 }
 #filters ul li span {
   width: 18px;
@@ -43,7 +44,7 @@
 #filters ul li a {
   display: inline;
   padding: 0 16px;
-  font-weight: 700;
+  font-weight: 700; 
 }
 
 /***************************Section FiltersInfo***************************************/
