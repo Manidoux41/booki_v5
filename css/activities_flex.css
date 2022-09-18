@@ -77,7 +77,6 @@
     width: 66%;
     flex-direction: row;
     gap: 36px;
-
   }
   .card__item--2,
   .card__item--3,
@@ -91,25 +90,28 @@
 @media screen and (max-width: 768px) {
   /***************************Section Activities **************************************/
   #activities .activitiesList {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     height: 100%;
-    gap: 24px;
+    width: 100%;
+    gap: 36px;
+    padding-bottom: 0px;
   }
-
-  .activitiesList > *,
+  .cont-1, .cont-3 {
+    height:220px;
+    width: 100%;
+  }
+  .cont-2, .cont-4{
+    flex-wrap: wrap;
+    height: 34%;
+    width: 100%;
+    gap: 36px;
+  }
   .card__item--2,
   .card__item--3,
   .card__item--5,
-  .card__item--6 {
-    height: 220px;
+  .card__item--6{
     width: 100%;
-  }
-  .cont-2,
-  .cont-4 {
-    height: 220px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 24px;
-  }
+    height:220px;
+  }  
 }
