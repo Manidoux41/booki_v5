@@ -64,9 +64,7 @@ préprocesseur CSS (type Sass ou Less) ne doit être utilisé.
 Google Chrome et de Mozilla Firefox. Il faudra tester le prototype sur
 ces deux navigateurs.
 - Il n’est pas nécessaire de versionner le code.
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
+
 
 > A Noter que ce projet a été réalisé dans le délais
 > imparti, sans que je n'ai eu besoin de relire l'intégralité
