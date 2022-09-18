@@ -1,145 +1,109 @@
 /* MAIN */
-
-/***********************************************************************************
-**************************** SECTION LODGING ***************************************
-***********************************************************************************/
 #lodging {
+  max-width: 1380px;
+  margin: 0 auto;
   display: flex;
-  gap: 24px;
-  margin-bottom: 45px;
+  gap: 16px;
+  margin-bottom: 35px;
 }
-.blue {
-  color: var(--blue);
-}
-.grey {
-  color: var(--darkgrey);
-}
-#lodging .card {
-  box-shadow: rgb(0 0 0 / 8%) 0px 4px 12px;
-  transition: 0.2s ease all;
-  cursor: pointer;
-}
-#lodging .card:hover {
-  transform: scale(1.02);
-}
-.cityLodging {
-  flex: 2;
+.citylodging {
+  width:70%;
 }
 .mostPopular {
-  flex: 1;
+  width: 30%;
 }
-.cityLodging,
+.citylodging,
 .mostPopular {
   background: var(--grey);
-  padding: 15px;
   border-radius: 16px;
-  display: flex;
+  display: flex; 
   flex-direction: column;
-  gap: 16px;
+  padding: 16px;
+  gap: 16px; 
 }
-.cityLodging a {
-  padding-left: 12px;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 40px;
-  transition: .2s ease;
-}
-.cityLodging a:hover {
-  color: var(--blue);
-}
-#lodging .cardContainer {
+.cardContainer{
+  width: 100%;
   display: flex;
-  gap: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-#lodging .card {
-  display: flex;
-  background: var(--white);
-  border:5px solid var(--white);
-  border-radius: 16px;
-  overflow: hidden;
+#lodging .card{  
+  margin-bottom: 16px;  
+  border: 8px solid var(--white);  
+}
+#lodging a:hover {  
+  opacity: .75;
+} 
+#lodging p {
+  margin-bottom: 5px;
 }
 #lodging img {
   object-fit: cover;
+}
+/***********************************************************************************
+**************************** SECTION LODGING ***************************************
+***********************************************************************************/
+/** City Lodging **/
+.citylodging .cardContainer .card{
+  width: 32%;
+}
+.citylodging .cardContainer .card img {  
   width: 100%;
+  height: 140px;  
 }
-/***************************City Lodging***************************************/
-.cityLodging .cardContainer {
-  width: 100%;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+.citylodging .knowmore{
+  font-weight: 800;
+  padding: 5px 0px 25px 5px;
 }
-/* Card */
-.cityLodging .cardContainer .card {  
-  flex-wrap: wrap;  
-  width: 31%;
+.citylodging .knowmore a:hover {
+  color: var(--blue);
 }
-.cityLodging .cardContainer .card .image {
-  width:100%;
-}
-.cityLodging .cardContainer .card .image img {
-  height: 130px;
-  } 
-.cityLodging .cardContainer .card .content {
-  width: 100%;
-  padding: 2px;  
-}
-.cityLodging .cardContainer .card .content p{
-  margin-bottom: 4px;
-}
-/***************************Most Popular***************************************/
+/** Most Popular **/
 .mostPopular .cardContainer {
   flex-direction: column;
 }
-.mostPopular .cardContainer .card .image {
+.mostPopular .cardContainer .card {
+  width: 100%;
   height: 150px;
-  width: 38%;
+  display: flex;
 }
-.mostPopular .cardContainer .card .image img {
-  height: 100%;
+.mostPopular .cardContainer .card img {
+  width: 40%;
 }
 .mostPopular .cardContainer .card .content {
-  width: 58%;
-  display: flex;
+  display: flex;  
   flex-direction: column;
   justify-content: space-between;
-  padding: 3px 7px;
+  padding-left: 5px;
 }
-.mostPopular .cardContainer .card .content .contentText {
-  display: inline;
-}
-.mostPopular .cardContainer .card .content .star {
-  display: inline-flex;
-  flex-direction: row;
-}
-/*************************************************************************************
-************************************ MEDIA QUERIES ***********************************
-*************************************************************************************/
-@media screen and (max-width: 992px) {
-  /*************************** SECTION LODGING ***************************************/
+/** Media queries **/
+@media screen and (max-width:992px) {
   #lodging {
-    display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
-  .cityLodging .cardContainer .card .image img {
-    height: 160px;
-    } 
-  #lodging .mostPopular {
-    order: -1;
+  .citylodging, .mostPopular {
+    width:100%;
   }
-  .cityLodging .cardContainer .card {
+  .citylodging{
+    background-color: var(--white);    
+  }
+  .mostPopular { 
+    background-color: var(--grey);
+    border-radius: 0;
+  }
+ 
+  .citylodging .cardContainer .card{
     width: 48%;
-  }  
-}
-/* Media screen 768px */
-@media screen and (max-width: 550px) {
-  /*************************** SECTION LODGING ***************************************/
-  .cityLodging .cardContainer .card {
-    width: 100%;
   }
-  .cityLodging .cardContainer .card .image img {
-    height: 170px;
-    } 
-  .mostPopular .cardContainer .card .content h4 {
-    font-size: 16px;
+  .citylodging .cardContainer .card img {
+    height: 150px;
+  }  
+  .mostPopular .cardContainer .card{
+    height: 160px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .citylodging .cardContainer .card{
+    width: 100%;
   }
 }

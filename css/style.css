@@ -4,11 +4,9 @@
 @import "header.css";
 @import "searchform.css";
 @import "filter.css";
-@import "lodging_flex_copy.css";
+@import "lodging_flex.css";
 @import "activities_flex.css";
 @import "footer.css";
-/* @import 'activities_grid.css';
-@import 'lodging_grid.css'; */
 /****************************************** Styles Généraux *****************************************/
 * {
   margin: 0;
