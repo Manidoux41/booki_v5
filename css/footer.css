@@ -32,8 +32,18 @@ footer {
 /*************************************************************************************
 ************************************ MEDIA QUERIES ***********************************
 *************************************************************************************/
+ @media screen and (max-width: 992px) {
+  .footer__container {
+    flex-wrap: wrap;
+  }
+.about,
+.helpAssist,
+.ourLodging{
+  width: 48%;
+}
+} 
 @media screen and (max-width: 768px) {
   .footer__container {
     flex-direction: column;
   }
-}
+} 
