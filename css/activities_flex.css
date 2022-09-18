@@ -70,13 +70,13 @@
     gap: 24px;
   }
   .cont-1, .cont-3 {
-    width: 31%;
+    width: 30%;
     height: 200px;
   }
   .cont-2, .cont-4{
-    width: 64%;
+    width: 66%;
     flex-direction: row;
-    gap: 24px;
+    gap: 36px;
 
   }
   .card__item--2,
