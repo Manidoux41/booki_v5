@@ -28,42 +28,42 @@ des liens. Ils doivent mener respectivement vers la section
 
 ## Spécifications techniques
 
-● Deux maquettes ont été réalisées : l’une desktop et l’autre mobile. Le
+- Deux maquettes ont été réalisées : l’une desktop et l’autre mobile. Le
 site devra être également adapté aux formats tablette. Pour les
 tablettes, nous sommes libres de faire les adaptations nécessaires. Il
 est important qu’aucun élément ne soit coupé, et que le texte ait
 une taille suffisante.
-● Concernant les breakpoints, nous avons convenu avec le designer UI
+- Concernant les breakpoints, nous avons convenu avec le designer UI
 d’utiliser 992 px et 768 px.
 992 px pour les écrans d’ordinateurs et 768 px pour les tablettes, et
 tout ce qui est en dessous de 768 pour les téléphones portables.
-● Il faut d’abord réaliser l’intégration pour les ordinateurs (autrement
+- Il faut d’abord réaliser l’intégration pour les ordinateurs (autrement
 dit, en desktop first), puis les tablettes et enfin les téléphones.
 L’utilisation des Media Queries nous permettra de réaliser
 l’intégration pour les différents supports.
-● Plusieurs formats et tailles d’images ont été exportés. Il faudra choisir
+- Plusieurs formats et tailles d’images ont été exportés. Il faudra choisir
 le format le plus adapté par rapport à la résolution et au temps de
 chargement.
-● Les icônes proviennent de la bibliothèque Font Awesome. Nous
+- Les icônes proviennent de la bibliothèque Font Awesome. Nous
 pouvons passer par un CDN pour faciliter le chargement des icônes.
-● Les couleurs de la charte sont le bleu (#0065FC), une version plus
+- Les couleurs de la charte sont le bleu (#0065FC), une version plus
 claire de ce bleu (#DEEBFF) et le gris pour le fond (#F2F2F2).
-● La police du site est Raleway. Nous pouvons passer par Google Font
+- La police du site est Raleway. Nous pouvons passer par Google Font
 pour importer facilement cette police dans le code :
 https://fonts.google.com/specimen/Raleway.
-● Il est important d’utiliser les pixels et les pourcentages plutôt que les
+- Il est important d’utiliser les pixels et les pourcentages plutôt que les
 REM et les EM.
-● Il est important d’utiliser Flexbox plutôt que Grid car c’est la techno
+- Il est important d’utiliser Flexbox plutôt que Grid car c’est la techno
 que l’équipe maîtrise le mieux.
-● Aucun framework CSS (type BootStrap ou Tailwind CSS) ou
+- Aucun framework CSS (type BootStrap ou Tailwind CSS) ou
 préprocesseur CSS (type Sass ou Less) ne doit être utilisé.
-● Il est important d’utiliser des balises sémantiques (type `main`,
+- Il est important d’utiliser des balises sémantiques (type `main`,
 `header`, `nav`, etc.).
-● Le code doit être valide aux validateurs W3C HTML et CSS.
-● La maquette doit être compatible avec les dernières versions de
+- Le code doit être valide aux validateurs W3C HTML et CSS.
+- La maquette doit être compatible avec les dernières versions de
 Google Chrome et de Mozilla Firefox. Il faudra tester le prototype sur
 ces deux navigateurs.
-● Il n’est pas nécessaire de versionner le code.
+- Il n’est pas nécessaire de versionner le code.
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
 As [John Gruber] writes on the [Markdown site][df1]
