@@ -8,24 +8,29 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding-top: 40px;
+  gap: 25px;
 }
 .about,
 .helpAssist,
 .ourLodging {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 0;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
+
 .footer__container h4 {
   font-size: 16px;
   font-weight: 800;
   padding-bottom: 7px;
 }
 .footer__container li {
+  display: flex;
+  width: 240px;
   padding: 5px 0;
 }
+
+
 .footer__container li a:hover {
   color: var(--blue);
 }
@@ -35,6 +40,7 @@ footer {
  @media screen and (max-width: 992px) {
   .footer__container {
     flex-wrap: wrap;
+    gap: 5px;
   }
 .about,
 .helpAssist,
