@@ -18,8 +18,9 @@
 #filters ul li {
   display: flex;
   align-items: center;
-  margin-right: 16px;
+  margin-right: 16px;  
   border: 2px solid var(--darkgrey);
+  border-left: none;
   border-radius: 25px;
   transition: 0.3s ease;
   margin-bottom: 15px;
@@ -30,16 +31,17 @@
   background: var(--darkgrey);
 }
 #filters ul li span {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 18px;
+  padding: 20px 22px;
   background: var(--lightgrey);
   color: var(--blue);
   border-radius: 25px;
-  margin-left: -2px;
+  margin-left: -3px;
+  z-index: 1;
 }
 #filters ul li a {
   display: inline;

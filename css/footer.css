@@ -10,9 +10,7 @@ footer {
   padding-top: 40px;
   gap: 25px;
 }
-.about,
-.helpAssist,
-.ourLodging {
+.menu__footer {
   align-self: flex-start;
   padding: 20px 0;
   width: 100%;
@@ -43,9 +41,7 @@ footer {
     flex-wrap: wrap;
     gap: 5px;
   }
-.about,
-.helpAssist,
-.ourLodging{
+  .menu__footer{
   width: 48%;
 }
 } 

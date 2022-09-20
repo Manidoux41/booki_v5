@@ -3,7 +3,7 @@
   max-width: 1380px;
   margin: 0 auto;
   display: flex;
-  gap: 16px;
+  gap: 32px;
   margin-bottom: 35px;
 }
 .citylodging {
@@ -90,8 +90,7 @@
   .mostPopular { 
     background-color: var(--grey);
     border-radius: 0;
-  }
- 
+  } 
   .citylodging .cardContainer .card{
     width: 48%;
   }
